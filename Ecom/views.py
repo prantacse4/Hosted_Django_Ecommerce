@@ -97,7 +97,7 @@ def contact(request):
         'total':total,
         'cartcount':cartcount,
     }
-    return render(request, 'Ecom/Contact.html', context = diction)
+    return render(request, 'Ecom/contact.html', context = diction)
 
 
 
