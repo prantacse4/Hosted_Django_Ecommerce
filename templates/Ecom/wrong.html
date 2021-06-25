@@ -1,0 +1,62 @@
+
+
+
+
+{% extends 'Ecom/Base.html' %}
+{% load static %}
+
+
+{% block title %}
+Congratulations!
+{% endblock title %}
+    
+{% block extracss %}
+  
+{% endblock extracss %}
+
+{% block main %}
+    
+
+
+
+
+
+
+
+<!-- ============================================== HEADER : END ============================================== -->
+<div class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <ul class="list-inline list-unstyled">
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li class='active'>Wrong</li>
+      </ul>
+    </div><!-- /.breadcrumb-inner -->
+  </div><!-- /.container -->
+</div><!-- /.breadcrumb -->
+
+<div class="body-content">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="order-summary clearfix">
+                    <div class="section-title">
+                        <h3 class="title">404 NOT FOUND</h3>
+                    </div>
+                  
+                    
+                    <a href="{% url 'home' %}" class="btn btn-info checkout-btn">Go to Home</a>
+                    <hr>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+{% endblock main %}
+
